@@ -127,8 +127,7 @@ tax_fix_interactive(BONCAT_fixed)
 
 
 # Save phyloseq object to be loaded into other analyses if need be
-saveRDS(BONCAT, here("BONCAT_ps.rds"))
-saveRDS(BONCAT_fixed, here("BONCAT_fixed_ps.rds"))
+saveRDS(BONCAT_fixed, here("Fixed_ps.rds"))
 
 
 # Create a data.frame of the OTU_table and Tax_table which can be manipulated easier using tidyverse. 
