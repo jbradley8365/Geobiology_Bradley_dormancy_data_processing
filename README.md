@@ -12,10 +12,10 @@ BioProject PRJNA893676<br/>
 MIT5 DNA: SAMN31525315, SAMN31525316<br/>
 MIT5 RNA: SAMN31525317
 
-Within the Seq_analysis folder are files used to process the raw Illumina paired-end metagenomic and metatranscriptomic data for the above publication. 
+Within the [Seq_analysis](https://github.com/jbradley8365/Geobiology_Bradley_dormancy_data_processing/tree/main/Seq_analysis) folder are files used to process the raw Illumina paired-end metagenomic and metatranscriptomic data for the above publication. 
 
 These include:
-* __1_Phyloflash_workflow_Geobio_manuscript.sh__ - using the tool [phyloFlash](http://hrgv.github.io/phyloFlash/] to construct the SSU rRNAs (for 16S and 18S) for phylogenetic inference from the raw paired-end sequencing data.
+* __1_Phyloflash_workflow_Geobio_manuscript.sh__ - using the tool [phyloFlash](http://hrgv.github.io/phyloFlash/) to construct the SSU rRNAs (for 16S and 18S) for phylogenetic inference from the raw paired-end sequencing data.
 *  __2_NTU_abundance_to_Phyloseq_Geobio_manuscript.R__ to convert phyloFlash output data in [phyloseq](https://joey711.github.io/phyloseq/) objects in R for exoploration and visualization.
     * output: __NTU_combined.csv__ - the combined output of the multiple NTU_abundance files from the phyloFlash workflow.
     * output: __Fixed_ps.rds__ - the output Phyloseq object with taxonomy names fixed using [microViz](https://david-barnett.github.io/microViz/index.html)
